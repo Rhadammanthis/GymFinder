@@ -1,0 +1,352 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.com.cceo.gymapp.GymDetailActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:focusable="true"
+            android:layout_width="match_parent"
+            android:layout_height="144dip">
+            <ImageView
+                android:layout_width="match_parent"
+                android:scaleType="centerInside"
+                android:layout_height="144dip"
+                android:background="#000000"
+                android:id="@+id/gym_detail_header"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:background="#99000000"
+                android:paddingLeft="16dip"
+                android:paddingBottom="8dip"
+                android:paddingTop="8dip"
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/gym_detail_name"
+                android:layout_alignBottom="@+id/gym_detail_header"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dip">
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dip"
+                android:layout_marginBottom="8dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Precios"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:paddingLeft="16dip"
+            android:layout_width="match_parent"
+            android:layout_height="72dip">
+            <ImageView
+                android:alpha="0.54"
+                android:background="@drawable/logo_money"
+                android:layout_centerVertical="true"
+                android:layout_width="32dip"
+                android:layout_height="32dip" />
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="64dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#DD000000"
+                android:text="500   -   Paquete 1"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:paddingLeft="16dip"
+            android:layout_width="match_parent"
+            android:layout_height="72dip">
+            <ImageView
+                android:alpha="0.54"
+                android:background="@drawable/logo_money"
+                android:layout_centerVertical="true"
+                android:layout_width="32dip"
+                android:layout_height="32dip" />
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="64dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#DD000000"
+                android:text="600   -   Paquete 2"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:paddingLeft="16dip"
+            android:layout_width="match_parent"
+            android:layout_height="72dip">
+            <ImageView
+                android:alpha="0.54"
+                android:background="@drawable/logo_money"
+                android:layout_centerVertical="true"
+                android:layout_width="32dip"
+                android:layout_height="32dip" />
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="64dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#DD000000"
+                android:text="700   -   Paquete 3"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="#1E000000"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dip">
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dip"
+                android:layout_marginBottom="8dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Promociones"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:paddingRight="16dip"
+            android:paddingLeft="16dip"
+            android:layout_width="match_parent"
+            android:layout_height="72dip">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_marginLeft="8dip"
+                android:alpha="0.54"
+                android:src="@drawable/black"
+                android:layout_centerVertical="true"
+                android:layout_width="16dip"
+                android:layout_height="16dip" />
+            <TextView
+                android:id="@+id/gym_detail_promo_1"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="64dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#DD000000"
+                android:text="Paga 3 clases muestra y llevate una gratis"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:paddingLeft="16dip"
+            android:paddingRight="16dip"
+            android:layout_width="match_parent"
+            android:layout_height="72dip">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_marginLeft="8dip"
+                android:src="@drawable/black"
+                android:alpha="0.54"
+                android:layout_centerVertical="true"
+                android:layout_width="16dip"
+                android:layout_height="16dip" />
+            <TextView
+                android:id="@+id/gym_detail_promo_2"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="64dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#DD000000"
+                android:text="Trae a un amigo y paga solo la mitad"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:paddingLeft="16dip"
+            android:paddingRight="16dip"
+            android:layout_width="match_parent"
+            android:layout_height="72dip">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_marginLeft="8dip"
+                android:alpha="0.54"
+                android:src="@drawable/black"
+                android:layout_centerVertical="true"
+                android:layout_width="16dip"
+                android:layout_height="16dip" />
+            <TextView
+                android:id="@+id/gym_detail_promo_3"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="64dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#DD000000"
+                android:text="Asesoria nutrimental gratis"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="#1E000000"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dip">
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dip"
+                android:layout_marginBottom="8dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Instructores"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:paddingRight="16dip"
+            android:paddingLeft="16dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/coach_1_photo"
+                android:layout_marginLeft="8dip"
+                android:layout_marginTop="8dip"
+                android:layout_width="48dip"
+                android:layout_height="48dip" />
+            <TextView
+                android:id="@+id/coach_1_name"
+                android:layout_toEndOf="@id/coach_1_photo"
+                android:layout_marginTop="32dip"
+                android:layout_marginLeft="80dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#DD000000"
+                android:text="Dwayne Johnosn"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:id="@+id/coach_1_bio"
+                android:layout_below="@+id/coach_1_photo"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="8dip"
+                android:layout_marginBottom="8dip"
+                android:layout_marginLeft="8dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#DD000000"
+                android:text="Antes era un luchador y ahora es un actor que a todo el mundo le cae bien por sus peliculas en las que sale de luchador"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:paddingRight="16dip"
+            android:paddingLeft="16dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/coach_2_photo"
+                android:layout_marginLeft="8dip"
+                android:layout_marginTop="8dip"
+                android:layout_width="48dip"
+                android:layout_height="48dip" />
+            <TextView
+                android:id="@+id/coach_2_name"
+                android:layout_toEndOf="@id/coach_2_photo"
+                android:layout_marginTop="32dip"
+                android:layout_marginLeft="80dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#DD000000"
+                android:text="Dwayne Johnosn"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:id="@+id/coach_2_bio"
+                android:layout_below="@+id/coach_2_photo"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="8dip"
+                android:layout_marginBottom="8dip"
+                android:layout_marginLeft="8dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#DD000000"
+                android:text="Antes era un luchador y ahora es un actor que a todo el mundo le cae bien por sus peliculas en las que sale de luchador"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:paddingRight="16dip"
+            android:paddingLeft="16dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/coach_3_photo"
+                android:layout_marginLeft="8dip"
+                android:layout_marginTop="8dip"
+                android:layout_width="48dip"
+                android:layout_height="48dip" />
+            <TextView
+                android:id="@+id/coach_3_name"
+                android:layout_toEndOf="@id/coach_3_photo"
+                android:layout_marginTop="32dip"
+                android:layout_marginLeft="80dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#DD000000"
+                android:text="Dwayne Johnosn"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:id="@+id/coach_3_bio"
+                android:layout_below="@+id/coach_3_photo"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="8dip"
+                android:layout_marginBottom="8dip"
+                android:layout_marginLeft="8dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#DD000000"
+                android:text="Antes era un luchador y ahora es un actor que a todo el mundo le cae bien por sus peliculas en las que sale de luchador"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="#1E000000"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dip">
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dip"
+                android:layout_marginBottom="8dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Fotos"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="128dip"
+            android:layout_marginBottom="32dip"
+            android:background="#00000000">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/gym_detail_recyclerView"
+                android:scrollbars="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

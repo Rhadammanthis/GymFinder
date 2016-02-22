@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="32dip"
+    android:paddingBottom="32dip"
+    android:paddingStart="16dip"
+    android:paddingEnd="16dip">
+    <View
+        android:id="@+id/fragment_gym_list_header"
+        android:layout_width="match_parent"
+        android:layout_height="72dip"
+        android:background="#4272ff"/>
+    <RelativeLayout
+        android:layout_below="@+id/fragment_gym_list_header"
+        android:background="#efefef"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeLayout">
+
+        <android.support.v7.widget.RecyclerView
+            android:paddingStart="8dip"
+            android:paddingEnd="8dip"
+            android:id="@+id/fragment_gym_list_recycler"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Gimnasios en la zona"
+        android:layout_marginBottom="8dip"
+        android:layout_marginStart="16dip"
+        android:textColor="#ffffff"
+        android:id="@+id/textView"
+        android:layout_alignBottom="@+id/fragment_gym_list_header"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
